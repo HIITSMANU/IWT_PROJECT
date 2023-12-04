@@ -6,18 +6,18 @@ body {
 
 }
 .profile {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
-    transition: transform 0.5s, margin-top 0.5s, box-shadow 0.5s; /* Added box-shadow to the transition */
+    /* transition: transform 0.5s, margin-top 0.5s, box-shadow 0.5s;  */
 }
 
 .profile:hover {
-    margin-top: 100px;
-    transform: scale(1.22);
+    /* margin-top: 100px; */
+    /* transform: scale(1.22); */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow effect */
 }
 .profile h1 {
@@ -29,7 +29,33 @@ body {
     margin-top: 20px;
     box-shadow: 100px black;
 }
+.table{
+    width: 80%;
 
+}
 .profile-info label {
     font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color:#fab113;
+}
+
+td:last-child {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
