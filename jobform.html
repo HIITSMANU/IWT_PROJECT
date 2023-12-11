@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jobform.css">
+    <title>Job Form</title>
+</head>
+<body>
+    <div class="addjob">
+        <h1>Add Job</h1>
+        <form action="#" method="POST">
+            <label for="jobTitle">Enter Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle" required><br><br>
+
+            <label for="location">Location:</label>
+            <select id="location" name="location">
+                <option value="location1">Chennai</option>
+                <option value="location2">Bangalore</option>
+                <option value="location2">Noida</option>
+                <option value="location2">Bhubaneshwar</option>
+                <option value="location2">Remote</option>
+                <!-- Add more options as needed -->
+            </select><br><br>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="category1">Data Science</option>
+                <option value="category2">Web-development</option>
+                <option value="category2">App development</option>
+                <option value="category2">Others</option>
+            </select><br><br>
+
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="open">Open</option>
+                <option value="open">Round-1</option>
+                <option value="open">Round-2</option>
+                <option value="open">Final-round</option>
+                <option value="closed">Closed</option>
+            </select><br><br>
+
+            <label for="jobDescription">Enter Description:</label><br>
+            <textarea id="jobDescription" name="jobDescription" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Publish">
+        </form>
+    </div>
+</body>
+</html>
