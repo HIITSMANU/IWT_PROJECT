@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg,#ffffff 0%, #daae51 100%);
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* overflow: hidden; */
+    width: 400px;
+}
+
+.login-header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.login-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;    
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #000000;
+}
+
+.user-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color:  black;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.footer h4{
+    color: rgb(248, 242, 242);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.footer a {
+    color: rgb(235, 230, 230);
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer a:hover{
+    color: rgb(255, 255, 255);
+    transition: .5s all ease;
+}
+
+.first_half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .second_half{
+    border-top:4px solid rgb(13, 13, 13);
+  }
+  .second_half p{
+    margin: 0 auto;
+    margin-top: 23px;
+  }
+  .third_half span{
+    line-height: 37px;
+    color: #e3dcdc;
+    font-size: 25px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all .2s linear;
+    
+  }
+  .third_half span:hover{
+    color: rgb(17,13,13);
+    background-color: white;
+  }
+
+  nav{
+    background-color: black;
+    height: 110px;
+    width: 100%;
+}
+
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline;
+    line-height: 110px;
+    margin: 0 5px;
+ }
+ nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+ }
+ /* a:hover{
+    background-color: rgb(248, 247, 248);
+    transition: .5s;
+    border-radius: 20px;
+ } */
+ .cbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    line-height: 80px;
+    display: none;
+    cursor: pointer;
+ }
+ #check{
+    display: none;
+ }
