@@ -1,11 +1,7 @@
-/* alljobs-admin.css */
-
-/* Style for job card */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    background: linear-gradient(45deg, #ffffff 0%, #daae51 100%);
 
 }
 .job-card {
@@ -96,3 +92,84 @@ button {
 button:hover {
     opacity: 0.8;
 }
+nav{
+    background-color: black;
+    height: 110px;
+    width: 100%;
+}
+
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline;
+    line-height: 75px;
+    /* margin: 0 5px; */
+ }
+ nav ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+ }
+ /* a:hover{
+    background-color: rgb(248, 247, 248);
+    transition: .5s;
+    border-radius: 20px;
+    color: black;
+ } */
+
+ .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color:  black;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.footer h4{
+    color: rgb(248, 242, 242);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.footer a {
+    color: rgb(235, 230, 230);
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer a:hover{
+    color: rgb(255, 255, 255);
+    transition: .5s all ease;
+}
+
+.first_half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .second_half{
+    border-top:4px solid rgb(13, 13, 13);
+  }
+  .second_half p{
+    margin: 0 auto;
+    margin-top: 23px;
+  }
+  .third_half span{
+    line-height: 37px;
+    color: #e3dcdc;
+    font-size: 25px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all .2s linear;
+    
+  }
+  .third_half span:hover{
+    color: rgb(17,13,13);
+    background-color: white;
+  }

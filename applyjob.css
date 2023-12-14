@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(45deg, #ffffff 0%, #daae51 100%);
+    padding: 20px; /* Adding some padding to the body */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.addjob {
+    max-width: 600px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%; /* Adjusting the width */
+    padding: 10px; /* Improving padding */
+    margin-bottom: 20px; /* Increasing margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensuring padding is included in width */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px; /* Adjusting padding */
+    margin-top: 10px; /* Adding margin */
+    border: none;
+    border-radius: 4px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3c3c3c;
+}
+
+/* ... Other styles remain the same ... */

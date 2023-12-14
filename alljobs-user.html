@@ -13,14 +13,14 @@
         <i class="fa fa-bars"></i>
     </label> -->
         <img class="logo" src="Manu_KMPNY.png" width="110px" style="margin-left: 10px;"/>
-        <ul>
-            <li><a style="text-decoration: none;" href="lander.html">HOME</a></li>
-            <li><a style="text-decoration: none;" href="alljobs-user.html">JOBS</a></li>
-            <li><a style="text-decoration: none;" href="lander.html">EVENTS</a></li>
-            <li><a style="text-decoration: none;" href="homepage.html">LOGOUT</a></li>
-        </ul>
+    <ul>
+        <li><a style="text-decoration: none;" href="lander.html">HOME</a></li>
+        <li><a style="text-decoration: none;" href="alljobs-user.html">JOBS</a></li>
+        <li><a style="text-decoration: none;" href="lander.html">EVENTS</a></li>
+        <li><a style="text-decoration: none;" href="homepage.html">LOGOUT</a></li>
+    </ul>
 </nav><br><br>
-<div class="job-card">
+<!-- <div class="job-card">
     <h2 class="title">Job Title</h2>
     <div class="job-details">
         <div class="details-line">
@@ -34,10 +34,9 @@
         </div>
     </div>
     <div class="button-container">
-        <button class="edit-btn">Edit</button>
-        <button class="delete-btn">Delete</button>
+        <a class="edit-btn" style="text-decoration: none; padding: 10px;" href="jobform.html">APPLY NOW</a>
     </div>
-</div>
+</div> -->
 <div class="job-card">
     <h2 class="title">Software Engineer</h2>
     <div class="job-details">
@@ -52,8 +51,7 @@
         </div>
     </div>
     <div class="button-container">
-        <button class="edit-btn">Edit</button>
-        <button class="delete-btn">Delete</button>
+        <a class="edit-btn" style="text-decoration: none; padding: 10px;" href="jobform.html">APPLY NOW</a>
     </div>
 </div>
 
@@ -71,8 +69,7 @@
         </div>
     </div>
     <div class="button-container">
-        <button class="edit-btn">Edit</button>
-        <button class="delete-btn">Delete</button>
+        <a class="edit-btn" style="text-decoration: none; padding: 10px;" href="jobform.html">APPLY NOW</a>
     </div>
 </div>
 
@@ -90,8 +87,7 @@
         </div>
     </div>
     <div class="button-container">
-        <button class="edit-btn">Edit</button>
-        <button class="delete-btn">Delete</button>
+        <a class="edit-btn" style="text-decoration: none; padding: 10px;" href="jobform.html">APPLY NOW</a>
     </div>
 </div><br><br><br>
 <div class="footer">
@@ -145,7 +141,11 @@
     </div>    
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+<script>
+    function clicked() {
+        windows.location.reload("jobform.html");
+    }
+</script>
 </body>
 
 </html>
